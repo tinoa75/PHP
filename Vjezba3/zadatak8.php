@@ -45,4 +45,9 @@ class RaceAnimal extends Animal
     }
 }
 
+$pas1 = new RaceAnimal("Micko", "pas", 80, 50);
+$pas2 = new RaceAnimal("Dogica", "pas", 20, 80);
+$macka1 = new RaceAnimal("Musa", "macka", 30, 100);
+$konj1 = new RaceAnimal("Spidko", "konj", 25,80);
+
 ?>
