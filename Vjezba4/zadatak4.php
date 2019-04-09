@@ -1,3 +1,12 @@
+<?php
+function slucajniBroj()
+{
+      $a = rand(1,100);
+      return $a;
+
+}
+?>
+
 <html>
 <head>
 <script src="https://www.chartjs.org/dist/2.8.0/Chart.min.js"></script>
@@ -14,7 +23,17 @@
                     borderColor: 'red',
                     backgroundColor: 'red',
                     data: [
-                         25,30,27,40,43
+                        <?php
+                          echo slucajniBroj();
+                          echo ",";
+                          echo slucajniBroj();
+                          echo ",";
+                          echo slucajniBroj();
+                          echo ",";
+                          echo slucajniBroj();
+                          echo ",";
+                          echo slucajniBroj();
+                         ?>
                     ],
                }, { fill: false,
                     label: 'My Second dataset',
@@ -22,7 +41,17 @@
                     borderColor: 'blue',
                     backgroundColor: 'blue',
                     data: [
-                         8,50,19,45,35
+                      <?php
+                        echo slucajniBroj();
+                        echo ",";
+                        echo slucajniBroj();
+                        echo ",";
+                        echo slucajniBroj();
+                        echo ",";
+                        echo slucajniBroj();
+                        echo ",";
+                        echo slucajniBroj();
+                       ?>
                     ],
 }] }
 };
