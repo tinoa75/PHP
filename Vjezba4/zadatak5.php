@@ -8,6 +8,7 @@ if (isset($_POST['submit'])) {
                      'Reply-To: ' . $from . "\r\n" .
                      'X-Mailer: PHP/' . phpversion();
         // mail($to, $subject, $message, $headers);
+        echo $to, $subject, $message, $headers;
 }
 ?>
 
