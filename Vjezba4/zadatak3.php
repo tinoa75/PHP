@@ -15,7 +15,6 @@ catch (Exception $error) {
     echo $error->getMessage();
 }
 
-//  for php7
 
 try{
     $c=$a/$b;
