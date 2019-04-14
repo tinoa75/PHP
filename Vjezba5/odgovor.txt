@@ -1,0 +1,18 @@
+
+
+2. Zadatak
+
+MVC na ovako definiranoj strukturi projekta odvaja aplikacijsku od poslovne/model i prezentacijske logike.
+
+3. Zadatak
+RequestHandler.class.php datoteka prima user input i usmjerava RequestHandler koji upravlja zahtjevima.
+
+4. Zadatak
+.htaccess je konfiguracijska datoteka koja se koristi na Apache serverima kako bi se modificirala konfiguracija servera i
+aktivirale/deaktivirale određene mogućnosti koje pruža web server (SEO, restrikcije..)
+
+5. Zadatak
+U index.php datoteci
+
+6. Zadatak
+U appcore da se ne treba instancirati klasa u svakoj datoteci ponovno.
